@@ -147,7 +147,7 @@ def getRandFileHex(bytes_to_get: int):
     return outFileDir
 
 
-if( __file__ == "__main__"): #This doesn't work for some reason on my new computer
+if( __file__ == "__main__"): #This doesn't work for some reason on my new computer, it did on the old one.
     #print(getRandFileHex(10*1024*1024))
     print(getRandNist(1*1024*1024))
-print(getRandNist(2*1024*1024))
+print(getRandNist(4*1024*1024))
